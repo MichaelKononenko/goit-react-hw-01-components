@@ -1,6 +1,7 @@
 import { Profile } from "./profile/Profile";
 import user from "../data/user.json";
 import { GlobalStyle } from "./GlobalStyle";
+import { Container } from "./Container";
 
 const {username, 
   tag,
@@ -9,14 +10,14 @@ const {username,
   stats,} = user;
 export const App = () => {
   return (
-    <div>
+  <Container>
+  <GlobalStyle />
   <Profile username={username}
   tag={tag}
   location={location}
   avatar={avatar}
   stats={stats}
     />
-    <GlobalStyle />
-    </div>
+    </Container>
   );
 };

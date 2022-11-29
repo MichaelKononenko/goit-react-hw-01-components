@@ -1,5 +1,5 @@
 import '@csstools/normalize.css';
-import { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 body {
@@ -14,5 +14,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+ul{
+  padding: 0;
+  margin: 0;
 }
 `;
