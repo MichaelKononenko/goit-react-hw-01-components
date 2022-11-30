@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
-import { StatisticsItem, StatisticsList, StatisticsSection } from './Statistics.styled';
+import {StatisticsHeading, StatisticsItem, StatisticsList, StatisticsSection } from './Statistics.styled';
 
 export const Statistics = ({title, stats}) => {
     return <StatisticsSection>
-        {title && <h2>{title}</h2>}
+        {title && <StatisticsHeading>{title}</StatisticsHeading>}
         <StatisticsList>
         {stats.map(item => <StatisticsItem style={{backgroundColor: randomColor()}}>
         <span>{item.label}</span>
