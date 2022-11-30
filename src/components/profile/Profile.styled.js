@@ -1,5 +1,7 @@
 import styled from "styled-components"; 
 export const ProfileItem = styled.div`
+width:300px;
+margin: 0 auto 50px;
 background-color: white;
 border: 1px solid black;
 padding-top: 40px;
@@ -12,8 +14,8 @@ text-align:center;
 export const ProfilePhoto = styled.img`
 display:block;
 margin: 0 auto;
-width: 200px;
-height: 200px;
+width: 100px;
+height: 100px;
 border-radius: 50%;
 overflow: hidden;
 border: 1px dashed black;
