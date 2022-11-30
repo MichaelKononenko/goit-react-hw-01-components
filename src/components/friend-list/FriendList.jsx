@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-import { backgroundColor } from "styled-system"
 import { FriendList, FriendListItem, FriendStatus, FriendPhoto, FriendName } from "./FriendList.styled"
 
 export const ProfileFriends = ({friends}) => {
